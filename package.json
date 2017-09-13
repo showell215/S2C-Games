@@ -1,0 +1,22 @@
+{
+  "name": "s2c-techletes",
+  "version": "0.0.1",
+  "description": "An application that will host games made by S2C students",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/showell215/S2C-Games.git"
+  },
+  "author": "Steven Howell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/showell215/S2C-Games/issues"
+  },
+  "homepage": "https://github.com/showell215/S2C-Games#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
