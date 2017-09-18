@@ -12,6 +12,6 @@ server.get('/', (req, res) => {
     res.send("Hello world!");
 });
 
-server.listen(config.port, () => {
+server.listen(server.get('port'), () => {
   console.log(`Server listening on port ${server.get('port')}`);
 });
