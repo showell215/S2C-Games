@@ -1,16 +1,16 @@
 <html>
     <head>
-        <title>Steven's game</title>
-        <link rel='stylesheet' src='./index.css'/>
+        <title>Steven's game!</title>
+        <link rel='stylesheet' type='text/css' href='./index.css'/>
     </head>
     <body>
         <div id='game'></div>
-        <script src='../../libraries/crafty-min.js'></script>
+        <script src='../libraries/crafty-min.js'></script>
         <script>
             Crafty.init(540, 300, document.querySelector('#game')); // start game inside my #game element
             Crafty.e('2D, Canvas, Color, Multiway') // set the options
-                .attr({x: 0, y: 0, w: 100, h: 100}) // set the starting postion and size
-                .color('#F00') // set the color
+                .attr({x: 0, y: 0, w: 50, h: 50}) // set the starting postion and size
+                .color('#800813') // set the color
                 .multiway(350, // speed
                     {UP_ARROW: -90, DOWN_ARROW: 90, RIGHT_ARROW: 0, LEFT_ARROW: 180}, // directions
                     {'multipleDirectionBehavior': 'all'}); // allow diagonals

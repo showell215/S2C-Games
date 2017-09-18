@@ -18,5 +18,6 @@
   "homepage": "https://github.com/showell215/S2C-Games#readme",
   "dependencies": {
     "express": "^4.15.4"
-  }
+    },
+  "port": 5678
 }
