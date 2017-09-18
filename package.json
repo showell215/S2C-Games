@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/showell215/S2C-Games/issues"
   },
+  "engines": {
+    "node": "8"
+  },
   "homepage": "https://github.com/showell215/S2C-Games#readme",
   "dependencies": {
     "express": "^4.15.4"
