@@ -3,6 +3,8 @@ const express = require('express'),
     config = require('./package'),
     server = express();
 
+
+server.set('port', (process.env.PORT || 5678));
 server.use(express.static('public'));
 
 server.get('/', (req, res) => {
@@ -10,5 +12,5 @@ server.get('/', (req, res) => {
 });
 
 server.listen(config.port, () => {
-  console.log(`Server listening on port ${config.port}`);
+  console.log(`Server listening on port ${app.get('port')}`);
 });
