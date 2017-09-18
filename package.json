@@ -4,7 +4,8 @@
   "description": "An application that will host games made by S2C students",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "pre-start": "npm i"
   },
   "repository": {
     "type": "git",
