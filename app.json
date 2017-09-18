@@ -1,0 +1,8 @@
+{
+  "name": "S2C Games",
+  "description": "Games created by S2C students",
+  "repository": "https://github.com/showell215/S2C-Games",
+  "logo": "",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
