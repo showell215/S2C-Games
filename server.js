@@ -1,4 +1,5 @@
-/* Hey! This file runs a server. When people connect to our web site, this helps them find the game they are looking for. Have questions about what's happening here? Ask Steven! */
+/* Hey! This file runs a server. When people connect to our web site, this helps them find the game they are
+looking for. Have questions about what's happening here? Ask Steven! */
 const express = require('express'),
     config = require('./package'),
     server = express();
@@ -12,5 +13,5 @@ server.get('/', (req, res) => {
 });
 
 server.listen(config.port, () => {
-  console.log(`Server listening on port ${app.get('port')}`);
+  console.log(`Server listening on port ${server.get('port')}`);
 });
