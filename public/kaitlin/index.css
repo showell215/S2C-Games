@@ -1,0 +1,50 @@
+body {
+  padding: 40px;
+}
+ul {
+    margin: 20px;
+    padding: 20px;
+}
+.main-title {
+  width: 100%;
+  text-align: center;
+}
+.footer {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 40px;
+  margin-top: 50px;
+}
+/* your CSS starts here */
+.quotes-image {
+  width: 200px;
+}
+.toast {
+ background-color: #2f4f4f;
+  color: #e0eeeb;
+}
+.cake {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+.hi {
+  width:200px;
+  float: left;
+}
+.about-me {
+    background-color: #7b7e8b;
+    float: left;
+}
+.factss {
+  float: right;
+  background-color: #7b7e8b;
+  clear: left;
+  
+}
+.twurtle {
+  float: right;
+    width: 200px;
+  clear: left;
+}
